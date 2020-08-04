@@ -5,10 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.6" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Finance.Data\Finance.Data.csproj" />
     <ProjectReference Include="..\Finance.Domain\Finance.Domain.csproj" />
   </ItemGroup>
 
